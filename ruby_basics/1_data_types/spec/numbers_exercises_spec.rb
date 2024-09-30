@@ -71,7 +71,7 @@ RSpec.describe 'Numbers Exercises' do
       expect(even?(6)).to eq(true)
     end
 
-    it 'returns false when the number is not even' do
+   it 'returns false when the number is not even' do
       expect(even?(5)).to eq(false)
     end
   end
